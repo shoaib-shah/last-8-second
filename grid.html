@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid-container{
+            display: grid;
+            grid-gap: 10px;
+            background-color: aqua;
+            padding: 20px;
+                }
+        div{
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        #item1{ grid-column: 1/span 1 }
+        #item2{ grid-column: 2/span 5 }
+        #item3{ grid-column: 1/span 6 }
+        #item4{ grid-column: 1/span 3;
+            grid-row: 3/span 2;  }
+        #item5{ grid-column: 6/span 1 }
+        #item6{ grid-column: 6/span 1 }
+        #item7{ grid-column: 1/span 6 }
+       
+        
+      
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="grid-container">
+        <div id="item1" style="background-color: rgb(238, 255, 0);">logo</div>
+        <div id="item2" style="background-color:red ;">header</div>
+        <div id="item3" style="background-color:palevioletred;">carousel</div>
+        <div id="item4" style="background-color:purple ;">main</div>
+        <div id="item5" style="background-color:orangered ;">image</div>
+        <div id="item6" style="background-color: tomato ;">link</div>
+        <div id="item7" style="background-color:rgb(102, 102, 238) ;">footer</div>
+    </div>
+
+
+</body>
+</html>
